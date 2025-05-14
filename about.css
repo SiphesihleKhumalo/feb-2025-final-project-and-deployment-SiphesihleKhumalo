@@ -1,0 +1,39 @@
+/* About page uses almost all shared styles as home */
+@import url("style.css");
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+.about-text {
+  flex: 1;
+}
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+.about-image {
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.about-image img {
+  width: 100%;
+  height: auto;
+  transition: var(--transition);
+}
+.about-image:hover img {
+  transform: scale(1.05);
+}
+/* Section title, notification, nav, etc., as in style.css */
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxe Nail Bar - Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="index.html" class="nav__logo" id="logo">Luxe Nail Bar</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a
+                href="index.html"
+                class="nav__link active-link"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="theme-toggle">
+          <button id="themeBtn">Dark Mode</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Welcome to Luxe Nail Bar</h1>
+          <p>
+            Experience luxury and art at your fingertips. Book your manicure &
+            pedicure today!
+          </p>
+          <button class="cta-button" id="bookNowBtn">Book Now</button>
+        </div>
+        <div class="hero-image">
+          <img
+            src="Images/nail place.jpg"
+            alt="Nail bar welcome image"
+            class="hero-nails"
+          />
+        </div>
+      </section>
+    </main>
+    <div class="notification" id="notification"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

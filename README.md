@@ -1,25 +1,43 @@
-# Final Project and Deployment
+# Luxe Nail Bar - Responsive Website
 
-## Objectives
-Build a fully functional web application.
-Apply HTML, CSS, and JavaScript concepts learned.
-Deploy the project using GitHub Pages, Netlify, or Vercel.
+![Luxe Nail Bar Preview](images/preview.jpg) */* Replace with actual preview image */*
 
-## Instructions
-Choose one of the following project ideas:
-Blog Website: Implement a multi-page site with navigation.
-Ecommerce Website: Implement a multi-page site with navigation.
+## Table of Contents
+- [Project Description](#project-description)
+- [Features](#features)
+- [Pages](#pages)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
->[!NOTE]
-> - Include at least:
-> - A responsive design.
-> - JavaScript interactivity.
-> - A deployment link.
+## Project Description
+A responsive multi-page website for a premium nail salon, created as part of my web development coursework. This project demonstrates proficiency in HTML5, CSS3, and JavaScript.
 
-## Tasks
+## Features
+✨ **Responsive Design** - Works on mobile, tablet, and desktop  
+🎨 **Modern UI** - Clean aesthetics with animations  
+🌓 **Dark/Light Mode** - User preference saved in localStorage  
+📱 **Mobile Menu** - Hamburger menu for small screens  
+📝 **Form Validation** - Contact form with JavaScript validation  
+⚡ **Performance Optimized** - Lazy-loaded images  
 
-Create a well-structured HTML5 document.
-Use at least 5 different HTML elements.
-Ensure semantic correctness.
+## Pages
+1. **Home** - Landing page with hero section and featured services
+2. **About** - Salon story and team members
+3. **Services** - Detailed service listings with prices
+4. **Contact** - Interactive contact form with validation
 
-Good luck and happy coding! 🚀💻
+## Technologies Used
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Styling**: CSS Grid, Flexbox, custom properties
+- **Version Control**: Git/GitHub
+- **Deployment**: GitHub Pages
+
+## Installation
+To run locally:
+```bash
+git clone https://github.com/your-username/nail-bar-website.git
+cd nail-bar-website
+# Open index.html in browser
+
